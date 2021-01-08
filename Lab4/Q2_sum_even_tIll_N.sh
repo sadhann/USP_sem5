@@ -20,4 +20,4 @@ while [ $temp -gt 1 ]; do
     temp=`expr $temp - 1`
 done
 
-echo "Sum of first $n even numbers: $sum"
+echo "Sum of even numbers till $n: $sum"
